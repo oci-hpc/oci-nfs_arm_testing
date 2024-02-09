@@ -646,6 +646,7 @@ variables:
     visible: ${create_compute_nodes}
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
