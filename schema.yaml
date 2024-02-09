@@ -166,6 +166,7 @@ variables:
     required: true
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
@@ -244,6 +245,7 @@ variables:
     required: true
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
@@ -263,6 +265,7 @@ variables:
     required: true
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.Standard2.1"
     - "VM.Standard2.2"
     - "VM.Standard2.4"
@@ -857,6 +860,7 @@ variables:
     required: true
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
@@ -966,6 +970,7 @@ variables:
     visible: ${create_monitoring_server}
     type: enum
     enum:
+    - "VM.Standard.A1.Flex"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
