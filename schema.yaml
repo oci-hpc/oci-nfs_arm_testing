@@ -195,6 +195,7 @@ variables:
     - "BM.GPU4.8"
     - "VM.Optimized3.Flex"
     - "BM.Optimized3.36"
+    - "BM.Standard.A1.160"
     visible: true
 
   bastion_ocpus:
@@ -252,6 +253,7 @@ variables:
     - "BM.DenseIO2.52"
     - "BM.HPC2.36"
     - "BM.Optimized3.36"
+    - "BM.Standard.A1.160"
     visible:
       and:
         - eq:
@@ -285,6 +287,7 @@ variables:
     - "VM.Optimized3.Flex"
     - "BM.Optimized3.36"
     - "BM.HPC2.36"
+    - "BM.Standard.A1.160"
     visible:
       and:
         - eq:
@@ -675,6 +678,7 @@ variables:
     - "BM.GPU4.8"
     - "VM.Optimized3.Flex"
     - "BM.Optimized3.36"
+    - "BM.Standard.A1.160"
 
   client_node_ocpus:
     title: Cores
@@ -890,6 +894,7 @@ variables:
     - "BM.GPU4.8"
     - "VM.Optimized3.Flex"
     - "BM.Optimized3.36"
+    - "BM.Standard.A1.160"
 
   quorum_server_ocpus:
     title: Cores
@@ -1000,6 +1005,7 @@ variables:
     - "BM.GPU4.8"
     - "VM.Optimized3.Flex"
     - "BM.Optimized3.36"
+    - "BM.Standard.A1.160"
 
   monitoring_server_ocpus:
     title: Cores
