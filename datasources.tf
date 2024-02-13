@@ -59,7 +59,7 @@ data "oci_core_images" "InstanceImageOCID" {
     #  name   = "display_name"
     #  values = ["^([a-zA-z]+)-([a-zA-z]+)-([\\.0-9]+)-([\\.0-9-]+)$"]
     #  regex  = true
-  }
+  #}
 
 
 /*
